@@ -1,1 +1,46 @@
 /* font-family: 'Open Sans', sans-serif; */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(44, 41, 38);
+  margin: 0;
+}
+
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(29, 26, 24);
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(238, 164, 80);
+  text-transform: uppercase;
+}
+
+#main-header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+#main-header li {
+  margin: 0 16px;
+}
+
+#main-header nav a {
+  color: rgb(185, 131, 31);
+  font-size: 20px;
+}
+
+#main-header nav a:hover {
+  color: rgb(228, 163, 44);
+}
